@@ -1,6 +1,6 @@
 // Экспортируйте отсюда функцию с именем из контракта вашего варианта.
 export function findLongestIncreasingSubsequence(numbers: number[]): number {
-  if (numbers.length == 0) {
+  if (numbers.length === 0) {
     return 0;
   }
 
